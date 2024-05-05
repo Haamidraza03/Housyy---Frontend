@@ -57,9 +57,17 @@ textarea:focus{
   height: 70px !important;
 }
 
+.med{
+  width: 500px !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.cards{
+  padding: 35px 35px !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -98,6 +106,20 @@ textarea:focus{
   #homerender{
     width: 150px !important;
   }
+
+  .med{
+    width: 282px !important;
+  }
+
+  .cards{
+    padding:50px 50px !important;
+  }
+}
+
+@media(max-width:375px){
+  .cards{
+    padding: 35px 35px !important;
+  }
 }
 
 .App-header {
@@ -113,6 +135,16 @@ textarea:focus{
 
 .link:hover{
   font-weight: bolder !important;
+}
+
+.star-filled {
+  color: gold;
+  cursor: pointer;
+}
+
+.star-empty {
+  color: #fff;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
