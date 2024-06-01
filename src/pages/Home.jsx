@@ -9,6 +9,7 @@ import artist from "./artist.jpg"
 import plumber from "./plumber.jpg"
 import {Link} from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import StarRating from '../components/StarRating';
 
 
 function Home() {
